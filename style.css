@@ -1,0 +1,27 @@
+/* Style sheet for ic-08 */
+
+body{
+	font-family: Arial;
+}
+
+h1{
+	text-align: center;
+}
+
+.bar{
+  fill: cornflowerblue;
+}
+
+/* make columns */
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+ }
